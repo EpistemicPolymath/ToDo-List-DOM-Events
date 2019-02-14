@@ -1,29 +1,4 @@
-// DOM Events
-// List of events: https://developer.mozilla.org/en-US/docs/Web/Events
-// Keyboard + Mouse Events are the most relevant
-// Let's select our button
-// <button type="button" name="button">Click me!</button>
-
-// var clickMeButton = document.getElementsByTagName("button")[0];
-//
-// // Let's listen to a "click" event
-//
-// clickMeButton.addEventListener("click", function() {
-//     console.log("Clicked!!");
-// })
-//
-// // "mouseenter" Event
-// clickMeButton.addEventListener("mouseenter", function() {
-//     console.log("Mouse Entered!!");
-// })
-//
-// //"mouseleave" Event
-// clickMeButton.addEventListener("mouseleave", function() {
-//     console.log("Mouse Left!!");
-// })
-
 // Cache Variables
-
 var enterButton = document.getElementById("enter");
 var userInput = document.getElementById("userInput");
 var todoList = document.querySelector("#todoList");
